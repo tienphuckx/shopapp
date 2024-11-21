@@ -14,3 +14,7 @@ CREATE TABLE IF NOT EXISTS users (
     last_login_at DATETIME,
     github_account_id INT DEFAULT 0
 );
+
+CREATE TABLE IF NOT EXISTS tokens (
+
+);
